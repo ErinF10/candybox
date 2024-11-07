@@ -1,0 +1,151 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding-left: 120px;  
+
+}
+
+#root {
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+h1 {
+  color:#34220d;
+}
+
+h2 {
+  color:#34220d;
+}
+
+h4 {
+  color: #34220d;
+}
+
+.navbar {
+  background-color: #f0d0a9;
+  width: 200px; 
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto; /* In case the navbar content is long */
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.home-candy-image img {
+  width: 100%; /* Make the image container full width */
+  height: 500px;
+  object-fit: cover;
+
+}
+
+.home-candy-image {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+}
+
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+label {
+  color:#34220d;
+}
+
+.customizations-container {
+  display: flex;
+  gap: 10vw;
+  color:#34220d;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.gallery {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Card {
+  backdrop-filter: blur(2px);
+  background-color:#ffe3c3;
+  border: 1px solid rgba(153, 153, 153, 0.497);
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin-bottom: 25px;
+  width: 300px;
+  text-align: center;
+}
+
+.name {
+  color:#34220d;
+  padding-left:30px;
+  font-size: 24px;
+}
+
+.sweetness {
+  color:#34220d;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.color {
+  color:#34220d;  
+  /* text-align: justify; */
+  text-justify: inter-word;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.moreButton {
+  width: 30px;
+  float:right;
+
+}
+.moreButton:hover {
+  cursor: pointer;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  color:#34220d;
+}
